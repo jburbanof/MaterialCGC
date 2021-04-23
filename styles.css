@@ -94,27 +94,31 @@ header,
     z-index: 9px;
     left: 0;
     right: 0;
-    top: 119px;
+    top: 43px;
     bottom: 100%;
     flex-direction: column;
     width: auto;
     height: auto;
     background-color: #ade8f4ec;
     overflow: hidden;
-    transition: all 0.5% ease-in-out;
+    transition: all 0.5s ease-in-out;
   }
   .navbar .navIcon {
     display: block;
   }
+  .navbar{
+    position:fixed;
+  }
   #navToggle:checked ~ .materias {
     bottom: 0;
   }
-  header h1 {
+  header {
     display: none;
   }
   header img {
     display: none;
   }
+
 }
 /*contenido de la página*/
 .contenido {
