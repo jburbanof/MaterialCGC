@@ -126,19 +126,18 @@ main {
   text-align: center;
 }
 .guides {
-  margin-top: 30px;
-  width: 70%;
-  float: left;
+  margin: 0;
+  width: 100%;
+  text-align: center;
 }
 .guideContent {
   margin: 30px auto;
   width: 70%;
 }
-.anuncios {
-  margin-top: 30px;
-  width: 25%;
-  float: right;
+.guideContent img {
+  width:100%;
 }
+
 .referecias {
   display: none;
   text-align: center;
